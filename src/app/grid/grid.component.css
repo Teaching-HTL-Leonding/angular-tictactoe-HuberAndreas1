@@ -1,0 +1,23 @@
+div {
+  display: grid;
+  grid-template-columns: repeat(3, min-content);
+}
+p {
+  /* display info nicely */
+  margin: 0;
+  padding: 0;
+  font-size: 1.5em;
+  text-align: center;
+  background: dodgerblue;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+button {
+  /* style the button */
+  font-size: 1.5em;
+  background: dodgerblue;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+}
