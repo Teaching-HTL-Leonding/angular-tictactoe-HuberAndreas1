@@ -1,0 +1,9 @@
+<p>{{turn}}</p>
+<div>
+  @for (square
+      of squares
+; track $index) {
+    <app-square (click)="onSquareClick($index)" [value]="square"></app-square>
+  }
+</div>
+<button (click)="reset()">Reset</button>
